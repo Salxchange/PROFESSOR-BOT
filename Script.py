@@ -3,16 +3,17 @@ class script(object):
 
 Mʏ Nᴀᴍᴇ Is {bot}.
 
-I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇ Fᴏʀ Yᴏᴜ Jᴜsᴛ Aᴅᴅ Mᴇ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘ Oʀ Jᴏɪɴ Oᴜʀ Gʀᴏᴜᴘ</b>"""
+I Cᴀɴ Pʀᴏᴠɪᴅᴇ Anime Fᴏʀ Yᴏᴜ Jᴜsᴛ Aᴅᴅ Mᴇ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘ Oʀ Jᴏɪɴ Oᴜʀ Gʀᴏᴜᴘ</b>"""
     
     HELP_TXT = "Hᴇʏ {}\nHᴇʀᴇ Mꜱ Mʏ Hᴇʟᴩ"
 
-    ABOUT_TXT = """<b>✯ Mʏ ɴᴀᴍᴇ: {}
-✯ Dᴇᴠᴇʟᴏᴩᴇʀ: <a herf=https://t.me/Mr_MKN>ᴍʀ.ᴍᴋɴ ᴛɢ</a>
-✯ Cᴏᴅᴇᴅ Oɴ: ᴩʏᴛʜᴏɴ/ᴩʏʀᴏɢʀᴀᴍ
-✯ Mʏ DᴀᴛᴀBᴀꜱᴇ: ᴍᴏɴɢᴏ-ᴅʙ
-✯ Mʏ Sᴇʀᴠᴇʀ: ᴀɴʏᴡʜᴇʀᴇ
-✯ Mʏ Vᴇʀꜱɪᴏɴ: ᴩʀᴏꜰᴇꜱꜱᴏʀ-ʙᴏᴛ ᴠ4.5.0</b>"""
+    ABOUT_TXT = """- 𝖢𝗋𝖾𝖺𝗍𝗈𝗋 : <a href="https://telegram.me/MysteryDemon">𝖬𝗒𝗌𝗍𝖾𝗋𝗒𝖣𝖾𝗆𝗈𝗇</a>
+- 𝖫𝗂𝖻𝗋𝖺𝗋𝗒 : Pyrogram
+- 𝖫𝖺𝗇𝗀𝗎𝖺𝗀𝖾 : 𝖯𝗒𝗍𝗁𝗈𝗇 𝟥
+- 𝖣𝖺𝗍𝖺𝖡𝖺𝗌𝖾 : 𝖬𝗈𝗇𝗀𝗈𝖣𝖡
+- 𝖡𝖮𝖳 𝖲𝖾𝗋𝗏𝖾𝗋 : 𝖠𝗇𝗒𝖶𝗁𝖾𝗋𝖾
+- 𝖡𝗎𝗂𝗅𝖽 𝖵𝖾𝗋𝗌𝗂𝗈𝗇 : 𝖯𝗋𝗈𝗃𝖾𝖼𝗍 𝖴𝗉𝗁𝗈𝗋𝗂𝖺 𝖵2.O﹝ʙᴇᴛᴀ﹞
+ """
    
     SOURCE_TXT = """<b>NOTE:</b>
 - ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ʜᴇʀᴇ ◉› :<a href=https://github.com/MrMKN/PROFESSOR-BOT>𝐏𝐑𝐎𝐅𝐄𝐒𝐒𝐎𝐑-𝐁𝐎𝐓</a>
