@@ -33,7 +33,7 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention, message.from_user.username, temp.U_NAME))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton("➕ 𝖣𝖨𝖲𝖢𝖴𝖲𝖲𝖨𝖮𝖭 𝖦𝖱𝖮𝖴𝖯 ➕", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
+            InlineKeyboardButton("➕ 𝖣𝖨𝖲𝖢𝖴𝖲𝖲𝖨𝖮𝖭 𝖦𝖱𝖮𝖴𝖯 ➕", url=f"http://t.me/Animes_Ocean")
             ],[
             InlineKeyboardButton("𝖨𝗇 𝗅𝗂𝗇𝖾 𝖰𝗎𝖾𝗋𝗒", switch_inline_query_current_chat=''), 
             InlineKeyboardButton("𝖴𝗉𝖽𝖺𝗍𝖾𝗌", url="https://t.me/Animes_Ocean")
@@ -69,7 +69,7 @@ async def start(client, message):
         
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton("➕ 𝖣𝖨𝖲𝖢𝖴𝖲𝖲𝖨𝖮𝖭 𝖦𝖱𝖮𝖴𝖯 ➕", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
+            InlineKeyboardButton("➕ 𝖣𝖨𝖲𝖢𝖴𝖲𝖲𝖨𝖮𝖭 𝖦𝖱𝖮𝖴𝖯 ➕", url=f"http://t.me/Animes_Ocean")
             ],[
             InlineKeyboardButton("𝖨𝗇 𝗅𝗂𝗇𝖾 𝖰𝗎𝖾𝗋𝗒", switch_inline_query_current_chat=''), 
             InlineKeyboardButton("𝖴𝗉𝖽𝖺𝗍𝖾𝗌", url="https://t.me/Animes_Ocean")
