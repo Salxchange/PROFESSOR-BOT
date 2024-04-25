@@ -11,8 +11,8 @@ def is_enabled(value, default):
 
 
 # PyroClient Setup 
-API_ID = int(environ['API_ID'])
-API_HASH = environ.get('API_HASH', '6d48cb362a97a43cfc944fd5c0f917f9')
+API_ID = int(environ['API_ID']) or 7324525
+API_HASH = environ.get('API_HASH', 'd28604398dc13af15dd108bb34a27a54')
 BOT_TOKEN = environ.get('BOT_TOKEN', '6828058022:AAGN8wQFpQ6ooZVFm32cSUX-v1Jey5nwq88')
 
 # Bot settings
@@ -23,7 +23,7 @@ UPTIME = time.time()
 # Admins, Channels & Users
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1966867320').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '0').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002056668358').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 auth_channel = environ.get('AUTH_CHANNEL')
