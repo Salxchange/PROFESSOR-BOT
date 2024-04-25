@@ -11,7 +11,7 @@ def is_enabled(value, default):
 
 
 # PyroClient Setup 
-API_ID = int(environ['API_ID']) or 7324525
+API_ID = int(environ['API_ID']) or "7324525"
 API_HASH = environ.get('API_HASH', 'd28604398dc13af15dd108bb34a27a54')
 BOT_TOKEN = environ.get('BOT_TOKEN', '6828058022:AAGN8wQFpQ6ooZVFm32cSUX-v1Jey5nwq88')
 
@@ -57,7 +57,7 @@ SHORT_API = environ.get("SHORT_API")
 
 # Others
 IMDB_DELET_TIME = int(environ.get('IMDB_DELET_TIME', "300"))
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001875846930'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'MKN_BOTZ_DISCUSSION_GROUP')
 P_TTI_SHOW_OFF = is_enabled(environ.get('P_TTI_SHOW_OFF', "True"), True)
 PM_IMDB = is_enabled(environ.get('PM_IMDB', "True"), True)
