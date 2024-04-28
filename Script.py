@@ -65,6 +65,13 @@ Tʜɪs Mᴏᴅᴜʟᴇ Oɴʟʏ Wᴏʀᴋs Fᴏʀ Mʏ Aᴅᴍɪɴs
 
 • /g_filter off Usᴇ Tʜɪs Cᴏᴍᴍᴏᴀɴᴅ + on/offғ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘ Tᴏ Cᴏɴᴛʀᴏʟ Gʟᴏʙᴀʟ Fɪʟᴛᴇʀ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘ"""
 
+
+    CUSTOM_FILE_CAPTION = """<i>{filename}
+</i>
+<b>🔘 𝖲𝖨𝖹𝖤 {filesize} 
+</b>
+<b>➠ 𝖩𝗈𝗂𝗇 : <a href=https://t.me/Animes_Ocean>𝖠𝗇𝗂𝗆𝖾 𝖮𝖼𝖾𝖺𝗇</a></b>"""
+
     BUTTON_TXT = """<b>Hᴇʟᴘ Fᴏʀ Bᴜᴛᴛᴏɴs</b>
 
 <i>Tʜɪs Bᴏᴛ Sᴜᴘᴘᴏʀᴛs Bᴏᴛʜ Uʀʟ Aɴᴅ Aʟᴇʀᴛ Iɴʟɪɴᴇ Bᴜᴛᴛᴏɴs.</i>
