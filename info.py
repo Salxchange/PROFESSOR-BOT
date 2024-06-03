@@ -11,9 +11,9 @@ def is_enabled(value, default):
 
 
 # PyroClient Setup 
-API_ID = int(environ['API_ID']) or "7324525"
-API_HASH = environ.get('API_HASH', 'd28604398dc13af15dd108bb34a27a54')
-BOT_TOKEN = environ.get('BOT_TOKEN', '6828058022:AAGN8wQFpQ6ooZVFm32cSUX-v1Jey5nwq88')
+API_ID = int("7324525")
+API_HASH = ('d28604398dc13af15dd108bb34a27a54')
+BOT_TOKEN = ('6316543195:AAHs-xmolKlamtgqpgqBHoM9YCF-U2fj6aY')
 
 # Bot settings
 WEBHOOK = bool(environ.get("WEBHOOK", True)) # for web support on/off
@@ -32,11 +32,11 @@ AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_chan
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URL = environ.get('DATABASE_URL', "mongodb+srv://ROKU:ROKU@cluster0.nxjre0s.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "AnimeOcean")
+DATABASE_URL = environ.get('DATABASE_URL', "mongodb+srv://godfredasamoah604:VcUbFmo1GfZZnviI@cluster0.z4fkwkl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Saint")
 FILE_DB_URL = environ.get("FILE_DB_URL", DATABASE_URL)
 FILE_DB_NAME = environ.get("FILE_DB_NAME", DATABASE_NAME)
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'OceanArchive')
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'SaintArchive')
 
 # Filters Configuration 
 MAX_RIST_BTNS = int(environ.get('MAX_RIST_BTNS', "10"))
