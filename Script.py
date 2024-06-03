@@ -70,7 +70,7 @@ Tʜɪs Mᴏᴅᴜʟᴇ Oɴʟʏ Wᴏʀᴋs Fᴏʀ Mʏ Aᴅᴍɪɴs
 </i>
 <b>🔘 𝖲𝖨𝖹𝖤 {file_size} 
 </b>
-<b>➠ 𝖩𝗈𝗂𝗇 : <a href=https://t.me/Animes_Ocean>𝖠𝗇𝗂𝗆𝖾 𝖮𝖼𝖾𝖺𝗇</a></b>"""
+<b>➠ 𝖩𝗈𝗂𝗇 : <a href=https://t.me/hype_movies>𝖧𝗒𝗉𝖾 𝖬𝗈𝗏𝗂𝖾𝗌 🍿</a></b>"""
 
     BUTTON_TXT = """<b>Hᴇʟᴘ Fᴏʀ Bᴜᴛᴛᴏɴs</b>
 
