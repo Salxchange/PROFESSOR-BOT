@@ -36,7 +36,7 @@ async def start(client, message):
             InlineKeyboardButton("➕ 𝖣𝖨𝖲𝖢𝖴𝖲𝖲𝖨𝖮𝖭 𝖦𝖱𝖮𝖴𝖯 ➕", url=f"http://t.me/Animes_Ocean")
             ],[
             InlineKeyboardButton("𝖨𝗇 𝗅𝗂𝗇𝖾 𝖰𝗎𝖾𝗋𝗒", switch_inline_query_current_chat=''), 
-            InlineKeyboardButton("𝖴𝗉𝖽𝖺𝗍𝖾𝗌", url="https://t.me/Animes_Ocean")
+            InlineKeyboardButton("𝖴𝗉𝖽𝖺𝗍𝖾𝗌", url="https://t.me/hype_moviess")
             ],[      
             InlineKeyboardButton("𝖧𝖾𝗅𝗉", callback_data="help"),
             InlineKeyboardButton("𝖠𝖻𝗈𝗎𝗍", callback_data="about")
@@ -72,7 +72,7 @@ async def start(client, message):
             InlineKeyboardButton("➕ 𝖣𝖨𝖲𝖢𝖴𝖲𝖲𝖨𝖮𝖭 𝖦𝖱𝖮𝖴𝖯 ➕", url=f"http://t.me/Animes_Ocean")
             ],[
             InlineKeyboardButton("𝖨𝗇 𝗅𝗂𝗇𝖾 𝖰𝗎𝖾𝗋𝗒", switch_inline_query_current_chat=''), 
-            InlineKeyboardButton("𝖴𝗉𝖽𝖺𝗍𝖾𝗌", url="https://t.me/Animes_Ocean")
+            InlineKeyboardButton("𝖴𝗉𝖽𝖺𝗍𝖾𝗌", url="https://t.me/hype_moviess")
             ],[      
             InlineKeyboardButton("𝖧𝖾𝗅𝗉", callback_data="help"),
             InlineKeyboardButton("𝖠𝖻𝗈𝗎𝗍", callback_data="about")
