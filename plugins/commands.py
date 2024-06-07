@@ -33,13 +33,13 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention, message.from_user.username, temp.U_NAME))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton("➕ 𝖣𝖨𝖲𝖢𝖴𝖲𝖲𝖨𝖮𝖭 𝖦𝖱𝖮𝖴𝖯 ➕", url=f"http://t.me/Animes_Ocean")
+            InlineKeyboardButton("➕ Add Me To Your Group ➕", url=f"http://t.me/FZXTest3Bot?startgroup=true")
             ],[
-            InlineKeyboardButton("𝖨𝗇 𝗅𝗂𝗇𝖾 𝖰𝗎𝖾𝗋𝗒", switch_inline_query_current_chat=''), 
+            InlineKeyboardButton("🔎 Search Movie/Series", switch_inline_query_current_chat=''), 
             InlineKeyboardButton("𝖴𝗉𝖽𝖺𝗍𝖾𝗌", url="https://t.me/hype_moviess")
             ],[      
-            InlineKeyboardButton("𝖧𝖾𝗅𝗉", callback_data="help"),
-            InlineKeyboardButton("𝖠𝖻𝗈𝗎𝗍", callback_data="about")
+            InlineKeyboardButton("🔮 Help", callback_data="help"),
+            InlineKeyboardButton("🗿 About", callback_data="about")
         ]]
         m = await message.reply_sticker("CAACAgUAAxkBAAEBvlVk7YKnYxIHVnKW2PUwoibIR2ygGAACBAADwSQxMYnlHW4Ls8gQHgQ") 
         await asyncio.sleep(2)
@@ -69,13 +69,13 @@ async def start(client, message):
         
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton("➕ 𝖣𝖨𝖲𝖢𝖴𝖲𝖲𝖨𝖮𝖭 𝖦𝖱𝖮𝖴𝖯 ➕", url=f"http://t.me/Animes_Ocean")
+            InlineKeyboardButton("➕ Add Me To Your Group ➕", url=f"http://t.me/FZXTest3Bot?startgroup=true")
             ],[
-            InlineKeyboardButton("𝖨𝗇 𝗅𝗂𝗇𝖾 𝖰𝗎𝖾𝗋𝗒", switch_inline_query_current_chat=''), 
+            InlineKeyboardButton("🔎 Search Movie/Series", switch_inline_query_current_chat=''), 
             InlineKeyboardButton("𝖴𝗉𝖽𝖺𝗍𝖾𝗌", url="https://t.me/hype_moviess")
             ],[      
-            InlineKeyboardButton("𝖧𝖾𝗅𝗉", callback_data="help"),
-            InlineKeyboardButton("𝖠𝖻𝗈𝗎𝗍", callback_data="about")
+            InlineKeyboardButton("🔮 Help", callback_data="help"),
+            InlineKeyboardButton("🗿 About", callback_data="about")
         ]]
         m = await message.reply_sticker("CAACAgUAAxkBAAEBvlVk7YKnYxIHVnKW2PUwoibIR2ygGAACBAADwSQxMYnlHW4Ls8gQHgQ")
         await asyncio.sleep(2)
