@@ -36,7 +36,7 @@ async def start(client, message):
             InlineKeyboardButton("➕ Add Me To Your Group ➕", url=f"http://t.me/FZXTest3Bot?startgroup=true")
             ],[
             InlineKeyboardButton("🔎 Search Movie/Series", switch_inline_query_current_chat=''), 
-            InlineKeyboardButton("𝖴𝗉𝖽𝖺𝗍𝖾𝗌", url="https://t.me/hype_moviess")
+            InlineKeyboardButton("", url="https://t.me/hype_moviess")
             ],[      
             InlineKeyboardButton("🔮 Help", callback_data="help"),
             InlineKeyboardButton("🗿 About", callback_data="about")
@@ -72,7 +72,7 @@ async def start(client, message):
             InlineKeyboardButton("➕ Add Me To Your Group ➕", url=f"http://t.me/FZXTest3Bot?startgroup=true")
             ],[
             InlineKeyboardButton("🔎 Search Movie/Series", switch_inline_query_current_chat=''), 
-            InlineKeyboardButton("𝖴𝗉𝖽𝖺𝗍𝖾𝗌", url="https://t.me/hype_moviess")
+            InlineKeyboardButton("", url="https://t.me/hype_moviess")
             ],[      
             InlineKeyboardButton("🔮 Help", callback_data="help"),
             InlineKeyboardButton("🗿 About", callback_data="about")
